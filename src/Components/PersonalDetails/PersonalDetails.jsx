@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const PersonalDetails = () => {
     const { isDarkMode } = useTheme()
     return (
-        <div className={isDarkMode ? 'primary-bg h-[600px] w-[350px] rounded-xl px-8' : 'bg-gray-200 shadow-lg h-[600px] w-[350px] rounded-xl px-8'}>
+        <div className={isDarkMode ? 'primary-bg h-[600px] lg:w-[350px] ml-3 rounded-xl px-8' : 'bg-gray-200 shadow-lg h-[600px] lg:w-[350px] ml-3 rounded-xl px-8'}>
             <div className='flex justify-center pt-8'>
                 <img src={myPic} alt="" className=' h-24 w-24 rounded-full' />
             </div>

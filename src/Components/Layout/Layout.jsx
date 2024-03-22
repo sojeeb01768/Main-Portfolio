@@ -18,6 +18,7 @@ const Layout = () => {
                     <Outlet />
                 </div>
             </div>
+            <h1 className='mt-32 h-5'></h1>
         </div>
     );
 };
