@@ -2,6 +2,7 @@ import React from 'react';
 import myPic from '../../assets/sojeeb.jpeg'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useTheme } from '../../Provider/ThemeContext';
+import { Link } from 'react-router-dom';
 
 const PersonalDetails = () => {
     const { isDarkMode } = useTheme()
@@ -31,9 +32,11 @@ const PersonalDetails = () => {
             </div>
             <hr className='border-collapse border-dashed border-slate-500' />
             <div className='flex justify-center mt-10'>
-                <button className="text-xs font-bold tracking-[3px] uppercase bg-[#70BA65] hover:bg-[#5e9c53] duration-300 text-white py-3 px-4 rounded-full mr-4">
-                    Contact Me
-                </button>
+                <Link to='/contact'>
+                    <button className="text-xs font-bold tracking-[3px] uppercase bg-[#70BA65] hover:bg-[#5e9c53] duration-300 text-white py-3 px-4 rounded-full mr-4">
+                        Contact Me
+                    </button>
+                </Link>
             </div>
         </div>
     );

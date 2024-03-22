@@ -58,7 +58,7 @@ const Navbar = () => {
                         Download cv
                     </button>
                     <div>
-                        <button className={isDarkMode ? 'mt-1 border border-slate-700 p-1 rounded-full' : 'mt-1 border bg-slate-700 border-slate-400 p-1 rounded-full'} onClick={toggleDarkMode}>
+                        <button className={isDarkMode ? 'mt-1 border border-slate-700 p-1 rounded-full' : 'mt-1 border bg-slate-500 border-slate-400 p-1 rounded-full'} onClick={toggleDarkMode}>
                             {
                                 isDarkMode ? <MdSunny className='text-yellow-500 text-xl' /> : <FaMoon className='text-slate-100 text-xl' />
                             }
