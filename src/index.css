@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+    background-color: #02162B;
+    color: #ffffff;
+}
+
+/* Light mode styles */
+.light {
+    background-color: #ffffff;
+    color: #141414;
+}
+
+.primary-bg {
+    @apply bg-[#00283a]
+}

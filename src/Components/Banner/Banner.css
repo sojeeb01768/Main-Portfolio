@@ -1,0 +1,8 @@
+.promotion {
+    position: relative; /* Ensure positioning context */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75)), url('../../assets/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
