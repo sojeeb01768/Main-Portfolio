@@ -12,11 +12,11 @@ const Projects = () => {
     },[])
 
     return (
-        <div className={` h-full w-full ${isDarkMode ? 'dark' : 'light'}`}>
+        <div className={` h-full w-full mt-[470px] lg:mt-10 ${isDarkMode ? 'dark' : 'light'}`}>
             <h1 className='lg:w-[770px] text-center font-bold text-2xl my-3'>My projects</h1>
             <hr className=' border-collapse border-dashed border-slate-500' />
 
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5  lg:w-[770px] mt-[440px] lg:mt-10 mx-5 lg:mx-0'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5  lg:w-[770px] mt-10  mx-5 lg:mx-0'>
                 {
                     projects.map(project=><Card key={project.id} project={project}></Card>)
                 }

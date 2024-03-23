@@ -32,7 +32,7 @@ const RadialProgress = ({ progress }) => {
                     strokeLinecap="round"
                 />
             </svg>
-            <span className="absolute top-12 left-12 text-lg font-semibold text-green-500">
+            <span className="absolute top-14 left-14 text-lg font-semibold text-green-500">
                 {progress}%
             </span>
         </div>

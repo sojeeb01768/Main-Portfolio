@@ -20,7 +20,7 @@ const Skills = () => {
                     <p className='text-center'>CSS</p>
                 </div>
                 <div>
-                    <RadialProgress progress={10} />
+                    <RadialProgress progress={80} />
                     <p className='text-center'>JavaScript</p>
                 </div>
             </div>

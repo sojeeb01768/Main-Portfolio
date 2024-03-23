@@ -1,0 +1,74 @@
+[
+    {
+      "category": "front_end",
+      "technologies": [
+        {
+          "name": "HTML",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "CSS",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "Tailwind CSS",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "Bootstrap",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "React",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "Next Js",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "name": "Angular",
+          "description": "A platform and framework for building single-page client applications using HTML and TypeScript"
+        },
+        {
+          "name": "Vue.js",
+          "description": "The progressive JavaScript framework"
+        }
+      ]
+    },
+    {
+      "category": "back_end",
+      "technologies": [
+        {
+          "name": "Node.js",
+          "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine"
+        },
+        {
+          "name": "Django",
+          "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design"
+        },
+        {
+          "name": "Spring Boot",
+          "description": "An open-source Java-based framework used to create microservices"
+        }
+      ]
+    },
+    {
+      "category": "database",
+      "technologies": [
+        {
+          "name": "MySQL",
+          "description": "An open-source relational database management system"
+        },
+        {
+          "name": "MongoDB",
+          "description": "A document-oriented NoSQL database"
+        },
+        {
+          "name": "PostgreSQL",
+          "description": "An open-source relational database management system emphasizing extensibility and SQL compliance"
+        }
+      ]
+    }
+  ]
+  
